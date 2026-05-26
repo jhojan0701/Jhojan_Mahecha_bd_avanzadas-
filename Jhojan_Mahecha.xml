@@ -1,0 +1,60 @@
+
+BASE_DATOS_XML                                                                  
+--------------------------------------------------------------------------------
+<base_datos>
+  <tabla_departamentos>
+    <departamento id="10">
+      <nombre_departamento>Administración</nombre_departamento>
+    </departamento>
+    <departamento id="20">
+      <nombre_departamento>Recursos Humanos</nombre_departamento>
+    </departamento>
+    <departamento id="30">
+      <nombre_departamento>Tecnología</nombre_departamento>
+    </departamento>
+    <departamento id="40">
+      <nombre_departamento>Contabilidad</nombre_departamento>
+    </departamento>
+    <departamento id="50">
+      <nombre_departamento>Ventas</nombre_departamento>
+    </departamento>
+  </tabla_departamentos>
+  <tabla_empleados>
+    <empleado id="100">
+      <nombre>Carlos</nombre>
+      <apellido>Ramírez</apellido>
+      <correo>carlos.ramirez@gmail.com</correo>
+      <salario>3500000</salario>
+      <id_departamento>10</id_departamento>
+    </empleado>
+    <empleado id="101">
+      <nombre>Laura</nombre>
+      <apellido>Gómez</apellido>
+      <correo>laura.gomez@hotmail.com</correo>
+      <salario>4200000</salario>
+      <id_departamento>20</id_departamento>
+    </empleado>
+    <empleado id="102">
+      <nombre>Andrés</nombre>
+      <apellido>Martínez</apellido>
+      <correo>andres.martinez@gmail.com</correo>
+      <salario>5100000</salario>
+      <id_departamento>30</id_departamento>
+    </empleado>
+    <empleado id="103">
+      <nombre>Camila</nombre>
+      <apellido>Torres</apellido>
+      <correo>camila.torres@outlook.com</correo>
+      <salario>3900000</salario>
+      <id_departamento>40</id_departamento>
+    </empleado>
+    <empleado id="104">
+      <nombre>Juan</nombre>
+      <apellido>Pérez</apellido>
+      <correo>juan.perez@gmail.com</correo>
+      <salario>2800000</salario>
+      <id_departamento>50</id_departamento>
+    </empleado>
+  </tabla_empleados>
+</base_datos>
+
